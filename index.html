@@ -8,34 +8,47 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <main>
-        <div class="linha">
-            <div id="casa01" class="casa" onclick="jogada(this);"></div>
-            <div id="casa02" class="casa" onclick="jogada(this);"></div>
-            <div id="casa03" class="casa" onclick="jogada(this);"></div>
-        </div>
-        <div class="linha">
-            <div id="casa04" class="casa" onclick="jogada(this);"></div>
-            <div id="casa05" class="casa" onclick="jogada(this);"></div>
-            <div id="casa06" class="casa" onclick="jogada(this);"></div>
-        </div>
-        <div class="linha">
-            <div id="casa07" class="casa" onclick="jogada(this);"></div>
-            <div id="casa08" class="casa" onclick="jogada(this);"></div>
-            <div id="casa09" class="casa" onclick="jogada(this);"></div>
-        </div>
+    
+    <div>
+
+        <h1>Jogo da Velha</h1>
+        <main class="Mudar">
         
-        <div class="Vitórias_X"> </div>
-        <div class="Vitórias O"></div>
-        <div id="placar"> 
-            <p>Placar:</p>
-            <p>X :0</p>
-            <p>O :0</p>
-        </div>
-        <div>
-            <button onclick="inicarJogo ();">Jogar</button>
-        </div>
-    </main>
+
+        
+            <div class="linha">
+                <div id="casa01" class="casa" onclick="jogada(this);"></div>
+                <div id="casa02" class="casa" onclick="jogada(this);"></div>
+                <div id="casa03" class="casa" onclick="jogada(this);"></div>
+            </div>
+            <div class="linha">
+                <div id="casa04" class="casa" onclick="jogada(this);"></div>
+                <div id="casa05" class="casa" onclick="jogada(this);"></div>
+                <div id="casa06" class="casa" onclick="jogada(this);"></div>
+            </div>
+            <div class="linha">
+                <div id="casa07" class="casa" onclick="jogada(this);"></div>
+                <div id="casa08" class="casa" onclick="jogada(this);"></div>
+                <div id="casa09" class="casa" onclick="jogada(this);"></div>
+            </div>
+            
+            <div class="Vitórias_X"> </div>
+            <div class="Vitórias O"></div>
+            <div id="placar"> 
+                <p>Placar:</p>
+                <p>X :0</p>
+                <p>O :0</p>
+            </div>
+            <div>
+                <button onclick="iniciarJogo();" class="Jogar" >Jogar
+                    
+                    </button>
+            </div>
+        </main>
+
+    </div>
+    
+    
     
     <script src="index.js"></script>
 </body>
