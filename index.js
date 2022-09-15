@@ -47,5 +47,19 @@ function verifica_ganhador() {
     } else if (casa03.innerHTML!= "" && casa03.innerHTML=== casa05.innerHTML && casa03.innerHTML === casa07.innerHTML){
         alert(`Temos um ganhador : ${casa03.innerHTML}🤩`)
     }
+    function vitoria(vencedor){
+        if(vencedor === "X")
+        vitorias_X = vitorias_X + 1;
+        placar.innerHTML = `placar X : ${Vitorias_X } O : ${Vitorias_O}`
+    }
+    function iniciarJogo(){
+        let casas = document.getElementsByClassName(`casa`);
+        casas[0].innerHTML = "";
+        casas[1].innerHTML = "";
+
+        let quemInicia = prompt("Informe X ou O :");
+        
+
+    }
 
 }
